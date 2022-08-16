@@ -1,0 +1,12 @@
+#notification-type .btn-success {
+    color: #000 !important;
+    background-color: #d3d8e5 !important ;
+    border-color: #d3d8e5 !important;
+}
+
+.btn-default:focus, .btn-default.focus { 
+background-color: #d3d8e5 !important:
+}
+
+#email-button:focus, #webpush-button:focus {
+background-color: #d3d8e5 !important ; }
