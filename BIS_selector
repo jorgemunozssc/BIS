@@ -1,0 +1,11 @@
+  // The code below selects the variant in the popup in case
+    // BIS.popup.form.selectVariant(variantId) isn't working
+    document.querySelector('button#BIS_trigger').addEventListener('click', function() {
+      var iframe = document.getElementById('BIS_frame')
+      var innerDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
+      var container = $(innerDoc).find('#container');
+      var variantId = BIS.detectVariant(BIS.popup).id;
+      setTimeout(function(){
+        var option = container.find('#variants').val(variantId)
+      }, 50)
+    });
