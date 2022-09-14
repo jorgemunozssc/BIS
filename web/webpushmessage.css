@@ -1,0 +1,8 @@
+.message { color: transparent; }
+
+.message:after {
+        content: "Klicken auf „Zulassen“, um per Push-Benachrichtigung benachrichtigt zu werden";
+        color: black; /* set color to original text color */
+        margin-left: -355px;
+        /* margin-left equals length of text we're replacing */
+    }
