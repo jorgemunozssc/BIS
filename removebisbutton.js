@@ -1,0 +1,12 @@
+var elements = document.querySelectorAll('#BIS_trigger');
+     console.log(elements);
+     elements[1].remove();
+ var elements = document.querySelectorAll(‘.btn.product__submit__add);
+     console.log(elements);
+     elements[1].remove();
+ var elements = document.querySelectorAll(‘product-form__submit.button.button--full-width.button--primary’);
+     console.log(elements);
+     elements[1].remove();
+ var elements = document.querySelectorAll('.product-form__submit.button.button--full-width.button--primary');
+     console.log(elements);
+     elements[0].style.display = "none";
